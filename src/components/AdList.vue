@@ -1,5 +1,5 @@
 <template>
-    <div class="container w-full mx-auto ">
+    <div class="container w-full mx-auto xl:container">
         <div class="w-full">
             <div
                 v-for="ad of getAds"
