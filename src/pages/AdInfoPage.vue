@@ -36,7 +36,7 @@
                         <p>{{ getAd.description }}</p>
                     </div>
                 </div>
-                <div class="flex flex-col h-full md:h-2/3  justify-between  rounded-lg mt-5 md:mt-0 bg-white p-5">
+                <div class="flex flex-col h-full md:h-fit  justify-between  rounded-lg mt-5 md:mt-0 bg-white p-5">
                     <div>
                         <p class="border-b-2 border-black pb-3">
                             {{ dayjs(getAd.created_at).tz('Asia/Tashkent').format('DD-MM-YYYY HH:mm:ss')}}
@@ -51,7 +51,7 @@
                         </div>
                     </div>
 
-                    <div class="w-full flex flex-col gap-2">
+                    <div class="w-full flex flex-col gap-2 mt-5">
                         <button type="button" class="p-2  rounded-md text-white bg-blue-300">
                             Message
                         </button>
