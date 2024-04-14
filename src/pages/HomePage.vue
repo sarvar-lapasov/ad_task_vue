@@ -1,5 +1,5 @@
 <template>
-    <div class=" bg-slate-100  block py-5 mx-auto">
+    <div class=" block py-5 mx-auto">
         <HeaderRow/>
             <AdList/>
     </div>  
