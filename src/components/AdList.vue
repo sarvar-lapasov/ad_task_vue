@@ -21,7 +21,7 @@
                        
                         <div class="flex justify-end">
                             <p class="">
-                            {{ dayjs(ad.created_at).tz('Asia/Tashkent').format('DD-MM-YYYY HH:mm:ss') }}
+                            {{ dayjs(ad.created_at).tz('Asia/Tashkent').format('DD-MM-YYYY') }}
                         </p>
                         </div>
                     </div>
