@@ -1,8 +1,8 @@
 <template>
     <div class=" block py-5 mx-auto">
         <HeaderRow/>
-            <AdList/>
-    </div>  
+        <AdList/>
+    </div>
 </template>
 
 <script>
@@ -15,7 +15,7 @@ export default {
         HeaderRow,
         AdList,
     },
-   
+
 }
 </script>
 <style>

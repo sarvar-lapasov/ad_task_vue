@@ -15,9 +15,9 @@
 <script>
 export default {
     name: "ImgRow",
-    data(){
+    data() {
         return {
-            url:import.meta.env.VITE_APP_API_URL
+            url: import.meta.env.VITE_APP_API_URL
         }
     },
     props: {

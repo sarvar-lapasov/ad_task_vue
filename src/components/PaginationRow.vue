@@ -24,7 +24,7 @@
 
 <script>
 import Paginate from "vuejs-paginate-next";
-import { mapActions, mapGetters } from "vuex";
+import {mapActions, mapGetters} from "vuex";
 
 export default {
     name: "PaginationRow",
@@ -59,7 +59,8 @@ export default {
             return (this.page = 1);
         },
     },
-    mounted() {},
+    mounted() {
+    },
 };
 </script>
 
